@@ -18,7 +18,7 @@ export default function Table() {
 
     const listItems = sampleData.map((item) => (
         <tr key={item.id}>
-            <th scope="row">{item.id}</th>
+            <td>{item.id}</td>
             <td>{item.name}</td>
             <td>{item.age}</td>
             <td>{item.city}</td>
